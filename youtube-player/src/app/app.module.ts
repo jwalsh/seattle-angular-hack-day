@@ -3,6 +3,7 @@ import { NgModule } from '@angular/core';
 import { FormsModule } from '@angular/forms';
 import { HttpModule } from '@angular/http';
 import { MaterialModule } from '@angular/material';
+import { FlexLayoutModule } from '@angular/flex-layout';
 import 'hammerjs';
 import { Routes, RouterModule } from '@angular/router';
 
@@ -11,6 +12,8 @@ import { HeaderComponent } from './header/header.component';
 import { FooterComponent } from './footer/footer.component';
 import { AboutComponent } from './about/about.component';
 import { NullComponent } from './null/null.component';
+import { PuppyComponent } from './puppy.component';
+import { KittenComponent } from './kitten/kitten.component';
 // import { PeopleService } from './people.service';
 
 export const routes: Routes = [
@@ -36,13 +39,16 @@ export const routes: Routes = [
         HeaderComponent,
         FooterComponent,
         AboutComponent,
-        NullComponent
+        NullComponent,
+        PuppyComponent,
+        KittenComponent
     ],
     imports: [
         BrowserModule,
         FormsModule,
         HttpModule,
-        MaterialModule.forRoot()
+        MaterialModule.forRoot(),
+        FlexLayoutModule.forRoot()
     ],
     providers: [],
     bootstrap: [AppComponent]

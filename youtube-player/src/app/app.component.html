@@ -6,9 +6,22 @@
     {{description}}
   </md-toolbar-row>
 
-  <button (click)="getPeople(1)">People</button>
+  <app-kitten></app-kitten>
+
+  <md-icon>
+  <button class="nav-menu" md-icon-button (click)="getPeople(1)">People</button>
   <button (click)="geVideos(1)">Videos</button>
   <button (click)="search(1)">Search</button>
+
+  <div class="flex-container"
+       fxLayout="row"
+       fxLayout.xs="column"
+       fxLayoutAlign="center center"
+       fxLayoutAlign.xs="start">
+    <div class="flex-item" fxFlex="20%" fxFlex.xs="40%">  </div>
+    <div class="flex-item" fxFlex>        </div>
+    <div class="flex-item" fxFlex="25px"> </div>
+  </div>
 
   <app-footer>
   </app-footer>

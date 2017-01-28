@@ -9,6 +9,7 @@ http://goo.gl/dfG3hX
 - new release process for 6 month releases with deprecation notices 
 - application example: YouTube player 
 - Don't use the nomenclature 
+- Branding: http://angularjs.blogspot.com/2017/01/branding-guidelines-for-angular-and.html
 
 https://github.com/mgiambalvo/demo-youtube-player
 
@@ -101,12 +102,17 @@ ng test
 3. Define the components: index, search, uploads
 4. Apply initial styling
 5. Create header: `ng generate component header`
+6. Create mock routes for login and logout
 
 ### Adding Design 
 
 https://material.angular.io/guide/getting-started
 
 - Update to use Material from NPM: `npm install @angular/material --save` 
+
+### Performance Tuning 
+
+- TODO: https://www.npmjs.com/package/source-map-explorer
 
 # Presentations 
 
@@ -144,5 +150,15 @@ https://xgrommx.github.io/rx-book/
 
 ## AngularFire 
 
+https://goo.gl/wrAQcW
 https://github.com/cnishina/angular-hack-day-puppy-example
 
+- See the examples for reading and writing lists 
+
+https://github.com/cnishina/angular-hack-day-puppy-example/commit/f8297065d20716bacfacb39dd496cbb5d152fe4b
+
+## Angular Material 
+
+- Use the new location 
+- Still in Beta
+- Also https://github.com/angular/flex-layout
