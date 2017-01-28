@@ -8,7 +8,15 @@
 
   <app-kitten></app-kitten>
 
-  <md-icon>
+  <md-sidenav-container>
+    <md-sidenav>
+      <md-nav-list>
+        <md-list-item>foo</md-list-item>
+      </md-nav-list>
+    </md-sidenav>
+  </md-sidenav-container>
+
+  <md-icon></md-icon>
   <button class="nav-menu" md-icon-button (click)="getPeople(1)">People</button>
   <button (click)="geVideos(1)">Videos</button>
   <button (click)="search(1)">Search</button>
@@ -24,5 +32,6 @@
   </div>
 
   <app-footer>
+    Footer
   </app-footer>
 </div>

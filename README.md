@@ -150,6 +150,7 @@ https://xgrommx.github.io/rx-book/
 
 ## AngularFire 
 
+https://github.com/duncanhunter/angularhackday-seattle2017-rxjs
 https://goo.gl/wrAQcW
 https://github.com/cnishina/angular-hack-day-puppy-example
 
@@ -159,6 +160,12 @@ https://github.com/cnishina/angular-hack-day-puppy-example/commit/f8297065d20716
 
 ## Angular Material 
 
+https://github.com/duncanhunter/angularhackday-seattle2017-angularmaterial2
+
 - Use the new location 
 - Still in Beta
 - Also https://github.com/angular/flex-layout
+
+- md-sidenav-container > md-sidenav > md-nav-list > md-list-item
+- fxLayoutAlign
+- Fairly declarative approach for looking at media queries associated with the layouts 
