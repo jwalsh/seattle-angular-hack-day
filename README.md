@@ -15,6 +15,7 @@ https://github.com/mgiambalvo/demo-youtube-player
 - component: view, component class, styles 
 - appliation is a tree of components 
 - Directives are a superclass of Components 
+- `ng generate component foo`
 - Application -> { NgModule ->  { Components* }}
 - platformBrowserDynamic used for bootstrapping 
 - Property binding uses <b [name]="person.name"...> and is one-way
@@ -55,6 +56,8 @@ https://github.com/mgiambalvo/demo-youtube-player
 3. Prepare scaffolding of html
 4. Apply logging for initialization of compnent via module import
 5. Prepare environments 
+6. Sample creating new views with components and routing
+7. Create sample tests for any new component with route
 
 ## Resources 
 
