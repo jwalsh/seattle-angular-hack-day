@@ -20,7 +20,7 @@ https://github.com/mgiambalvo/demo-youtube-player
 - `ng generate component foo`
 - Application -> { NgModule ->  { Components* }}
 - platformBrowserDynamic used for bootstrapping 
-- Property binding uses <b [name]="person.name"...> and is one-way
+- Property binding uses &gt;b [name]="person.name"...> and is one-way
 - Shortcut properties like [class.hidden] or [style.width.px]
 - Into component through properties, out through events (vs. @ContentChildrent of [(ngModel)])
 - Events signaled in (click) or (keydown.control.enter)
