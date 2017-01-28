@@ -4,7 +4,7 @@ import { FormsModule } from '@angular/forms';
 import { HttpModule } from '@angular/http';
 import { MaterialModule } from '@angular/material';
 import 'hammerjs';
-import { Routes, RouterModule } from '@angular/router'
+import { Routes, RouterModule } from '@angular/router';
 
 import { AppComponent } from './app.component';
 import { HeaderComponent } from './header/header.component';
@@ -26,7 +26,7 @@ export const routes: Routes = [
         component: NullComponent
     }
 
-]
+];
 
 
 @NgModule({
