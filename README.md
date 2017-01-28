@@ -85,3 +85,7 @@ ng new youtube-player
 cd youtube-player
 ng serve 
 ```
+
+1. Validate scaffolding
+2. Define the routes: /search, /upload
+3. Define the components: 
