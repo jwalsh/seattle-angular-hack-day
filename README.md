@@ -19,7 +19,7 @@ https://github.com/mgiambalvo/demo-youtube-player
 - platformBrowserDynamic used for bootstrapping 
 - Property binding uses <b [name]="person.name"...> and is one-way
 - Shortcut properties like [class.hidden] or [style.width.px]
-- Into component through attributes, out through events 
+- Into component through properties, out through events (vs. @ContentChildrent of [(ngModel)])
 - Events signaled in (click) or (keydown.control.enter)
 - HTML elements can be specified as #userName 
 - Structural directives specified as *ngIf 
@@ -46,10 +46,20 @@ https://github.com/mgiambalvo/demo-youtube-player
 - Change detection from https://github.com/angular/zone.js
 - routeLink via `app-routes.module.ts`
 - ngModules create Form objects with ngModelGroup for hierarchy
+- @ViewChild(NgForm): http://stackoverflow.com/questions/37093432/angular-2-template-driven-form-access-ngform-in-component
 
-Workflow: 
+## Workflow
 
 1. Define the core routes
 2. Define the structure of the application compnents 
 3. Prepare scaffolding of html
 4. Apply logging for initialization of compnent via module import
+5. Prepare environments 
+
+## Resources 
+
+- https://vsavkin.com/
+
+## TODO 
+
+- Functional TypeScript: https://vsavkin.com/functional-typescript-316f0e003dc6#.ekn4cqrpz
