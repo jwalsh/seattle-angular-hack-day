@@ -68,11 +68,20 @@ https://github.com/mgiambalvo/demo-youtube-player
 
 ## YouTube Demo
 
-- Review the demo application 
+### Review the demo application 
 
 ```
 git clone git@github.com:mgiambalvo/demo-youtube-player.git
 npm install 
 npm install extract-text-webpack-plugin@2.0.0-rc.0 --save-dev
+ng serve 
+```
+
+### Building the Demo
+
+```
+cd seattle-angular-hack-day
+ng new youtube-player
+cd youtube-player
 ng serve 
 ```
