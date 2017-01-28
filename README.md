@@ -59,6 +59,8 @@ https://github.com/mgiambalvo/demo-youtube-player
 ## Resources 
 
 - https://vsavkin.com/
+- https://angular.io/docs/ts/latest/tutorial/
+- https://github.com/angular/material2/blob/master/guides/getting-started.md
 
 ## TODO 
 
@@ -92,4 +94,5 @@ ng test
 2. Define the routes: /search, /upload
 3. Define the components: index, search, uploads
 4. Apply initial styling
-5. Create header: `ng generate component header` 
+5. Create header: `ng generate component header`
+6. Update to use Material from NPM: `npm install @angular/material --save` 
