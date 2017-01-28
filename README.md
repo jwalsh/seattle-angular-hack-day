@@ -92,4 +92,4 @@ ng test
 2. Define the routes: /search, /upload
 3. Define the components: index, search, uploads
 4. Apply initial styling
-
+5. Create header: `ng generate component header` 
