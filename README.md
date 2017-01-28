@@ -84,8 +84,12 @@ cd seattle-angular-hack-day
 ng new youtube-player
 cd youtube-player
 ng serve 
+ng e2e
+ng test 
 ```
 
-1. Validate scaffolding
+1. Validate scaffolding: application and tests
 2. Define the routes: /search, /upload
-3. Define the components: 
+3. Define the components: index, search, uploads
+4. Apply initial styling
+
