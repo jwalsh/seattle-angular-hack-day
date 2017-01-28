@@ -33,3 +33,23 @@ https://github.com/mgiambalvo/demo-youtube-player
 - TODO: review the passing of data from parent to child: template [data] to template *ngFor via @Input data
 - Passing data from chile to parent is with (updated) via @Output() updated
 - @Output foo: new EventEmitter<FooEvent>()
+- Testing is provided through Jasmine with describe()
+- core/test provides asyncTest and TestBed with configureTestingModule with declarations
+- fixtures from createComponent
+- Pipes as a filter in *ngFor "let player of (team.roster | isInjured)"
+- built-in pipes: async, date, and json
+- custom pipes PipeTransform: reqires transform method in interface
+- Content Projection: views vs. content via ng-content as transclude
+- TODO: review content projection 
+- Logging data values in constructor will not work since it is very early in the lifecyle of the component 
+- TODO: Review the lifecyle hooks: http://myrighttocode.org/blog/typescript/angular2/angular-2-lifecycle
+- Change detection from https://github.com/angular/zone.js
+- routeLink via `app-routes.module.ts`
+- ngModules create Form objects with ngModelGroup for hierarchy
+
+Workflow: 
+
+1. Define the core routes
+2. Define the structure of the application compnents 
+3. Prepare scaffolding of html
+4. Apply logging for initialization of compnent via module import
