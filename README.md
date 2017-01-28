@@ -14,3 +14,8 @@ https://github.com/mgiambalvo/demo-youtube-player
 - structure: components are like directives 
 - component: view, component class, styles 
 - appliation is a tree of components 
+- Directives are a superclass of Components 
+- Application -> { NgModule ->  { Components* }}
+- platformBrowserDynamic used for bootstrapping 
+- Property binding uses <b [name]="person.name"...> and is one-way
+- Shortcut properties like [class.hidden] or [style.width.px]
