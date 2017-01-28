@@ -140,3 +140,9 @@ https://xgrommx.github.io/rx-book/
 - HTTP gets are now Observables
 - FormContol.valuesChanges are Observables 
 - `route.params` are Observables 
+- See also 
+
+## AngularFire 
+
+https://github.com/cnishina/angular-hack-day-puppy-example
+

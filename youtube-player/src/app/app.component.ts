@@ -9,6 +9,7 @@ import { Observable } from 'rxjs/Observable';
 })
 export class AppComponent {
     people$: Observable<any>;
+    videos: Observable<any>;
 
     title = 'YouTube Player';
     description = 'Demo application for Seattle Angular Hack Day.';
@@ -17,6 +18,14 @@ export class AppComponent {
     }
 
     getPeople() {
+        return [];
+    }
+
+    getVideos() {
+        return this.videos;
+    }
+
+    search() {
         return [];
     }
 }
