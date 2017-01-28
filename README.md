@@ -63,3 +63,16 @@ https://github.com/mgiambalvo/demo-youtube-player
 ## TODO 
 
 - Functional TypeScript: https://vsavkin.com/functional-typescript-316f0e003dc6#.ekn4cqrpz
+- ng serve: https://github.com/angular/angular-cli/issues/4264
+- `npm install extract-text-webpack-plugin@2.0.0-rc.0 --save-dev`
+
+## YouTube Demo
+
+- Review the demo application 
+
+```
+git clone git@github.com:mgiambalvo/demo-youtube-player.git
+npm install 
+npm install extract-text-webpack-plugin@2.0.0-rc.0 --save-dev
+ng serve 
+```
