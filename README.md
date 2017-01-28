@@ -8,6 +8,7 @@ http://goo.gl/dfG3hX
 - based on the 2 day introduction provided at Google 
 - new release process for 6 month releases with deprecation notices 
 - application example: YouTube player 
+- Don't use the nomenclature 
 
 https://github.com/mgiambalvo/demo-youtube-player
 
@@ -59,6 +60,8 @@ https://github.com/mgiambalvo/demo-youtube-player
 6. Sample creating new views with components and routing
 7. Create sample tests for any new component with route
 
+# Working 
+
 ## Resources 
 
 - https://vsavkin.com/
@@ -98,4 +101,42 @@ ng test
 3. Define the components: index, search, uploads
 4. Apply initial styling
 5. Create header: `ng generate component header`
-6. Update to use Material from NPM: `npm install @angular/material --save` 
+
+### Adding Design 
+
+https://material.angular.io/guide/getting-started
+
+- Update to use Material from NPM: `npm install @angular/material --save` 
+
+# Presentations 
+
+## Why Angular 2
+
+- look at where Angular 1 applications were failing 
+- AOT (Ahead of Time) compiliation vs. JIT 
+- JIT: load document, template parsing, compling, angular tick 
+- updates for the modern web: ES2015+ 
+- components and classes use current class 
+- bundlers for providing namespaced code via `import { FooBar } from 'foo'`
+- As of September 2016: Angular 1 was double the size of Angular 2 (1.2M vs. .6M)
+
+Questions: 
+
+- terminology is similar to React via compponents 
+- TODO: performance through some analysis of the dependencies using https://www.npmjs.com/package/source-map-explorer
+
+```
+source-map-explorer bundle.min.js
+```
+
+- TODO: https://angular.io/docs/ts/latest/guide/upgrade.html
+
+## RxJS with Angular (vs. AngularJS)
+
+https://xgrommx.github.io/rx-book/
+
+- Values that come back over time 
+- Observable
+- HTTP gets are now Observables
+- FormContol.valuesChanges are Observables 
+- `route.params` are Observables 
