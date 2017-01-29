@@ -14,7 +14,8 @@ import { AboutComponent } from './about/about.component';
 import { NullComponent } from './null/null.component';
 import { PuppyComponent } from './puppy.component';
 import { KittenComponent } from './kitten/kitten.component';
-// import { PeopleService } from './people.service';
+import { PetsModule } from './pets/pets.module';
+import { PeopleService } from './people.service';
 
 export const routes: Routes = [
     {
