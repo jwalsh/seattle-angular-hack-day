@@ -1,6 +1,9 @@
 import { Component } from '@angular/core';
 import { Observable } from 'rxjs/Observable';
 // import { PeopleService } from 'people.service';
+import {Injectable, EventEmitter} from '@angular/core';
+import { Http, Response, Headers, RequestOptions } from '@angular/http';
+
 
 @Component({
   selector: 'app-root',
@@ -13,12 +16,13 @@ export class AppComponent {
 
     title = 'YouTube Player';
     description = 'Demo application for Seattle Angular Hack Day.';
-    constructor() {
+    constructor(private http: Http) {
 
     }
 
     getPeople() {
-        return [];
+        return this.http.get(`http://swapi.co/api/people/`)
+            .subscribe(people => console.log(people));
     }
 
     getVideos() {
